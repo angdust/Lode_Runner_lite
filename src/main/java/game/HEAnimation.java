@@ -32,15 +32,7 @@ public class HEAnimation extends Transition {
         this.imageView.setViewport(new Rectangle2D(xOffset, yOffset, width, height));
 
     }
-
-    public void setxOffset(int x) {
-        this.xOffset = x;
-    }
-
-    public void setyOffset(int y) {
-        this.yOffset = y;
-    }
-
+    
     @Override
     protected void interpolate(double frac) {
         final int frameNumber = Math.min((int) Math.floor(frames * frac), frames - 1);
