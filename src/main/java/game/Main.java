@@ -90,7 +90,7 @@ public class Main extends Application {
         blockDestroyer.setFitWidth(50);
         Label possibilityForDestroy = new Label("можно удалить 3 блока");
         Label ruleForDestroy = new Label("(удаление блока происходит слева и справ от героя" +
-                " при помощи кливиш Z и X)");
+                " при помощи клавиш Z и X)");
         game.getChildren().addAll(life1, life2, life3, coin, blockDestroyer, possibilityForDestroy, ruleForDestroy);
         life1.setTranslateX(10);
         life1.setTranslateY(801);
