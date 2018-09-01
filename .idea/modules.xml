@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cover lode runner lite.iml" filepath="$PROJECT_DIR$/cover lode runner lite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lode_runner_lite.iml" filepath="$PROJECT_DIR$/lode_runner_lite.iml" />
     </modules>
   </component>
 </project>
